@@ -1,0 +1,1274 @@
+
+  ipv6: false
+  enhanced-mode: redir-host
+  default-nameserver:
+    - 8.8.8.8
+  nameserver:
+    - https://doh-de.blahdns.com/dns-query
+    - https://dns.comss.one/dns-query
+  fallback:
+    - https://doh-de.blahdns.com/dns-query
+    - https://dns.comss.one/dns-query
+  fallback-filter:
+    geoip: true
+
+proxies:
+  - {
+      name: ALB🇦🇱・Tirana,
+      server: 31.171.155.19,
+      port: 1194,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: TCasPq78hUK9jp8WHEr6SD4v,
+      udp: true,
+    }
+  - {
+      name: DZA🇩🇿・Algiers,
+      server: 62.197.144.3,
+      port: 1194,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: TCasPq78hUK9jp8WHEr6SD4v,
+      udp: true,
+    }
+  - {
+      name: ARG🇦🇷・Buenos Aires,
+      server: 91.206.168.64,
+      port: 1194,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: TCasPq78hUK9jp8WHEr6SD4v,
+      udp: true,
+    }
+  - {
+      name: AUS🇦🇺・Brisbane,
+      server: 144.48.39.125,
+      port: 1194,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: TCasPq78hUK9jp8WHEr6SD4v,
+      udp: true,
+    }
+  - {
+      name: AUS🇦🇺・Adelaide,
+      server: 45.248.79.51,
+      port: 1194,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: TCasPq78hUK9jp8WHEr6SD4v,
+      udp: true,
+    }
+  - {
+      name: AUS🇦🇺・Sydney,
+      server: 45.248.76.171,
+      port: 1194,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: TCasPq78hUK9jp8WHEr6SD4v,
+      udp: true,
+    }
+  - {
+      name: AUS🇦🇺・Melbourne,
+      server: 144.48.38.21,
+      port: 1194,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: TCasPq78hUK9jp8WHEr6SD4v,
+      udp: true,
+    }
+  - {
+      name: AUS🇦🇺・Perth,
+      server: 124.150.139.181,
+      port: 1194,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: TCasPq78hUK9jp8WHEr6SD4v,
+      udp: true,
+    }
+  - {
+      name: AUT🇦🇹・Vienna,
+      server: 37.19.195.66,
+      port: 1194,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: TCasPq78hUK9jp8WHEr6SD4v,
+      udp: true,
+    }
+  - {
+      name: AZE🇦🇿・Baku,
+      server: 94.20.154.67,
+      port: 1194,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: TCasPq78hUK9jp8WHEr6SD4v,
+      udp: true,
+    }
+  - {
+      name: BEL🇧🇪・Brussels,
+      server: 185.104.186.75,
+      port: 1194,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: TCasPq78hUK9jp8WHEr6SD4v,
+      udp: true,
+    }
+  - {
+      name: BEL🇧🇪・Antwerp,
+      server: 188.95.54.8,
+      port: 1194,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: TCasPq78hUK9jp8WHEr6SD4v,
+      udp: true,
+    }
+  - {
+      name: BIH🇧🇦・Sarajevo,
+      server: 185.212.111.41,
+      port: 1194,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: TCasPq78hUK9jp8WHEr6SD4v,
+      udp: true,
+    }
+  - {
+      name: BRA🇧🇷・Sao Paulo,
+      server: 138.199.4.93,
+      port: 1194,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: TCasPq78hUK9jp8WHEr6SD4v,
+      udp: true,
+    }
+  - {
+      name: BUL🇧🇬・Sofia,
+      server: 37.19.203.76,
+      port: 1194,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: TCasPq78hUK9jp8WHEr6SD4v,
+      udp: true,
+    }
+  - {
+      name: CAN🇨🇦・Vancouver,
+      server: 198.8.92.79,
+      port: 1194,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: TCasPq78hUK9jp8WHEr6SD4v,
+      udp: true,
+    }
+  - {
+      name: CAN🇨🇦・Toronto,
+      server: 37.19.211.89,
+      port: 1194,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: TCasPq78hUK9jp8WHEr6SD4v,
+      udp: true,
+    }
+  - {
+      name: CAN🇨🇦・Montreal,
+      server: 146.70.27.37,
+      port: 1194,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: TCasPq78hUK9jp8WHEr6SD4v,
+      udp: true,
+    }
+  - {
+      name: CHL🇨🇱・Santiago,
+      server: 31.169.121.19,
+      port: 1194,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: TCasPq78hUK9jp8WHEr6SD4v,
+      udp: true,
+    }
+  - {
+      name: COL🇨🇴・Bogota,
+      server: 45.129.32.54,
+      port: 1194,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: TCasPq78hUK9jp8WHEr6SD4v,
+      udp: true,
+    }
+  - {
+      name: CRI🇨🇷・San Jose,
+      server: 176.227.241.19,
+      port: 1194,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: TCasPq78hUK9jp8WHEr6SD4v,
+      udp: true,
+    }
+  - {
+      name: HRV🇭🇷・Zagreb,
+      server: 176.222.34.115,
+      port: 1194,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: TCasPq78hUK9jp8WHEr6SD4v,
+      udp: true,
+    }
+  - {
+      name: CYP🇨🇾・Nicosia,
+      server: 195.47.194.99,
+      port: 1194,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: TCasPq78hUK9jp8WHEr6SD4v,
+      udp: true,
+    }
+  - {
+      name: CZE🇨🇿・Prague,
+      server: 193.9.112.179,
+      port: 1194,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: TCasPq78hUK9jp8WHEr6SD4v,
+      udp: true,
+    }
+  - {
+      name: DEN🇩🇰・Copenhagen,
+      server: 95.174.65.69,
+      port: 1194,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: TCasPq78hUK9jp8WHEr6SD4v,
+      udp: true,
+    }
+  - {
+      name: EST🇪🇪・Tallinn,
+      server: 185.174.159.133,
+      port: 1194,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: TCasPq78hUK9jp8WHEr6SD4v,
+      udp: true,
+    }
+  - {
+      name: FIN🇫🇮・Helsinki,
+      server: 196.244.191.163,
+      port: 1194,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: TCasPq78hUK9jp8WHEr6SD4v,
+      udp: true,
+    }
+  - {
+      name: FRA🇫🇷・Paris,
+      server: 143.244.57.66,
+      port: 1194,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: TCasPq78hUK9jp8WHEr6SD4v,
+      udp: true,
+    }
+  - {
+      name: FRA🇫🇷・Bordeaux,
+      server: 185.108.106.100,
+      port: 1194,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: TCasPq78hUK9jp8WHEr6SD4v,
+      udp: true,
+    }
+  - {
+      name: FRA🇫🇷・Marseille,
+      server: 185.166.84.91,
+      port: 1194,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: TCasPq78hUK9jp8WHEr6SD4v,
+      udp: true,
+    }
+  - {
+      name: GEO🇬🇪・Tbilisi,
+      server: 91.239.207.234,
+      port: 1194,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: TCasPq78hUK9jp8WHEr6SD4v,
+      udp: true,
+    }
+  - {
+      name: GER🇩🇪・Berlin,
+      server: 217.138.216.59,
+      port: 1194,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: TCasPq78hUK9jp8WHEr6SD4v,
+      udp: true,
+    }
+  - {
+      name: GER🇩🇪・Frankfurt am Main,
+      server: 91.239.157.58,
+      port: 1194,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: TCasPq78hUK9jp8WHEr6SD4v,
+      udp: true,
+    }
+  - {
+      name: GRC🇬🇷・Athens,
+      server: 194.150.167.50,
+      port: 1194,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: TCasPq78hUK9jp8WHEr6SD4v,
+      udp: true,
+    }
+  - {
+      name: HKG🇭🇰・HongKong,
+      server: 156.146.45.113,
+      port: 1194,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: TCasPq78hUK9jp8WHEr6SD4v,
+      udp: true,
+    }
+  - {
+      name: HUN🇭🇺・Budapest,
+      server: 37.120.144.149,
+      port: 1194,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: TCasPq78hUK9jp8WHEr6SD4v,
+      udp: true,
+    }
+  - {
+      name: ISL🇮🇸・Reykjavik,
+      server: 45.133.193.219,
+      port: 1194,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: TCasPq78hUK9jp8WHEr6SD4v,
+      udp: true,
+    }
+  - {
+      name: IND🇮🇳・Mumbai,
+      server: 129.227.219.29,
+      port: 1194,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: TCasPq78hUK9jp8WHEr6SD4v,
+      udp: true,
+    }
+  - {
+      name: IND🇮🇳・Chennai,
+      server: 103.108.117.118,
+      port: 1194,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: TCasPq78hUK9jp8WHEr6SD4v,
+      udp: true,
+    }
+  - {
+      name: IND🇮🇳・Indore,
+      server: 103.39.132.189,
+      port: 1194,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: TCasPq78hUK9jp8WHEr6SD4v,
+      udp: true,
+    }
+  - {
+      name: IDN🇮🇩・Jakarta,
+      server: 103.120.66.214,
+      port: 1194,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: TCasPq78hUK9jp8WHEr6SD4v,
+      udp: true,
+    }
+  - {
+      name: IRL🇮🇪・Dublin,
+      server: 37.120.235.213,
+      port: 1194,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: TCasPq78hUK9jp8WHEr6SD4v,
+      udp: true,
+    }
+  - {
+      name: ISR🇮🇱・Tel Aviv,
+      server: 87.239.255.121,
+      port: 1194,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: TCasPq78hUK9jp8WHEr6SD4v,
+      udp: true,
+    }
+  - {
+      name: ITA🇮🇹・Milan,
+      server: 212.102.54.137,
+      port: 1194,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: TCasPq78hUK9jp8WHEr6SD4v,
+      udp: true,
+    }
+  - {
+      name: ITA🇮🇹・Rome,
+      server: 185.217.71.3,
+      port: 1194,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: TCasPq78hUK9jp8WHEr6SD4v,
+      udp: true,
+    }
+  - {
+      name: JPN🇯🇵・Tokyo,
+      server: 138.199.22.148,
+      port: 1194,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: TCasPq78hUK9jp8WHEr6SD4v,
+      udp: true,
+    }
+  - {
+      name: KAZ🇰🇿・Oral,
+      server: 5.189.202.126,
+      port: 1194,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: TCasPq78hUK9jp8WHEr6SD4v,
+      udp: true,
+    }
+  - {
+      name: LVA🇱🇻・Riga,
+      server: 188.92.78.203,
+      port: 1194,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: TCasPq78hUK9jp8WHEr6SD4v,
+      udp: true,
+    }
+  - {
+      name: LUX🇱🇺・Luxembourg,
+      server: 185.153.151.29,
+      port: 1194,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: TCasPq78hUK9jp8WHEr6SD4v,
+      udp: true,
+    }
+  - {
+      name: MYS🇲🇾・Kuala Lumpur,
+      server: 111.90.145.116,
+      port: 1194,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: TCasPq78hUK9jp8WHEr6SD4v,
+      udp: true,
+    }
+  - {
+      name: MLT🇲🇹・Valletta,
+      server: 193.228.56.3,
+      port: 1194,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: TCasPq78hUK9jp8WHEr6SD4v,
+      udp: true,
+    }
+  - {
+      name: MEX🇲🇽・Mexico City,
+      server: 194.41.112.5,
+      port: 1194,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: TCasPq78hUK9jp8WHEr6SD4v,
+      udp: true,
+    }
+  - {
+      name: MDA🇲🇩・Chisinau,
+      server: 194.33.40.112,
+      port: 1194,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: TCasPq78hUK9jp8WHEr6SD4v,
+      udp: true,
+    }
+  - {
+      name: NLD🇳🇱・Amsterdam,
+      server: 143.244.42.66,
+      port: 1194,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: TCasPq78hUK9jp8WHEr6SD4v,
+      udp: true,
+    }
+  - {
+      name: NZL🇳🇿・Auckland,
+      server: 180.149.231.115,
+      port: 1194,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: TCasPq78hUK9jp8WHEr6SD4v,
+      udp: true,
+    }
+  - {
+      name: NGA🇳🇬・Lagos,
+      server: ng-lag.prod.surfshark.com,
+      port: 1194,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: TCasPq78hUK9jp8WHEr6SD4v,
+      udp: true,
+    }
+  - {
+      name: MKD🇲🇰・Skopje,
+      server: 185.225.28.109,
+      port: 1194,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: TCasPq78hUK9jp8WHEr6SD4v,
+      udp: true,
+    }
+  - {
+      name: NOR🇳🇴・Oslo,
+      server: 84.247.50.29,
+      port: 1194,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: TCasPq78hUK9jp8WHEr6SD4v,
+      udp: true,
+    }
+  - {
+      name: PAN🇵🇦・Panama,
+      server: 185.244.139.9,
+      port: 1194,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: TCasPq78hUK9jp8WHEr6SD4v,
+      udp: true,
+    }
+  - {
+      name: PER🇵🇪・Lima,
+      server: 193.218.35.17,
+      port: 1194,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: TCasPq78hUK9jp8WHEr6SD4v,
+      udp: true,
+    }
+  - {
+      name: PHL🇵🇭・Manila,
+      server: 45.134.224.18,
+      port: 1194,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: TCasPq78hUK9jp8WHEr6SD4v,
+      udp: true,
+    }
+  - {
+      name: POL🇵🇱・Gdansk,
+      server: 5.133.8.117,
+      port: 1194,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: TCasPq78hUK9jp8WHEr6SD4v,
+      udp: true,
+    }
+  - {
+      name: POL🇵🇱・Warsaw,
+      server: 138.199.17.137,
+      port: 1194,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: TCasPq78hUK9jp8WHEr6SD4v,
+      udp: true,
+    }
+  - {
+      name: PRT🇵🇹・Lisbon,
+      server: 5.154.174.99,
+      port: 1194,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: TCasPq78hUK9jp8WHEr6SD4v,
+      udp: true,
+    }
+  - {
+      name: PRT🇵🇹・Porto,
+      server: 194.39.127.233,
+      port: 1194,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: TCasPq78hUK9jp8WHEr6SD4v,
+      udp: true,
+    }
+  - {
+      name: ROU🇷🇴・Bucharest,
+      server: 37.120.206.235,
+      port: 1194,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: TCasPq78hUK9jp8WHEr6SD4v,
+      udp: true,
+    }
+  - {
+      name: RUS🇷🇺・Moscow,
+      server: ru-mos.prod.surfshark.com,
+      port: 1194,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: TCasPq78hUK9jp8WHEr6SD4v,
+      udp: true,
+    }
+  - {
+      name: SRB🇷🇸・Belgrade,
+      server: 152.89.160.61,
+      port: 1194,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: TCasPq78hUK9jp8WHEr6SD4v,
+      udp: true,
+    }
+  - {
+      name: SGP🇸🇬・Singapore,
+      server: 89.187.163.132,
+      port: 1194,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: TCasPq78hUK9jp8WHEr6SD4v,
+      udp: true,
+    }
+  - {
+      name: SVK🇸🇰・Bratislava,
+      server: 185.76.8.215,
+      port: 1194,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: TCasPq78hUK9jp8WHEr6SD4v,
+      udp: true,
+    }
+  - {
+      name: SVN🇸🇮・Ljubljana,
+      server: 195.158.249.50,
+      port: 1194,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: TCasPq78hUK9jp8WHEr6SD4v,
+      udp: true,
+    }
+  - {
+      name: ZAF🇿🇦・Johannesburg,
+      server: 102.165.47.134,
+      port: 1194,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: TCasPq78hUK9jp8WHEr6SD4v,
+      udp: true,
+    }
+  - {
+      name: KOR🇰🇷・Seoul,
+      server: 61.14.210.239,
+      port: 1194,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: TCasPq78hUK9jp8WHEr6SD4v,
+      udp: true,
+    }
+  - {
+      name: ESP🇪🇸・Barcelona,
+      server: 185.188.61.93,
+      port: 1194,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: TCasPq78hUK9jp8WHEr6SD4v,
+      udp: true,
+    }
+  - {
+      name: ESP🇪🇸・Madrid,
+      server: 212.102.48.15,
+      port: 1194,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: TCasPq78hUK9jp8WHEr6SD4v,
+      udp: true,
+    }
+  - {
+      name: ESP🇪🇸・Valencia,
+      server: 196.196.150.69,
+      port: 1194,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: TCasPq78hUK9jp8WHEr6SD4v,
+      udp: true,
+    }
+  - {
+      name: SWE🇸🇪・Stockholm,
+      server: 195.181.166.226,
+      port: 1194,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: TCasPq78hUK9jp8WHEr6SD4v,
+      udp: true,
+    }
+  - {
+      name: CHE🇨🇭・Zurich,
+      server: 212.102.36.232,
+      port: 1194,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: TCasPq78hUK9jp8WHEr6SD4v,
+      udp: true,
+    }
+  - {
+      name: TWN🇹🇼・Taichung City,
+      server: 103.152.151.3,
+      port: 1194,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: TCasPq78hUK9jp8WHEr6SD4v,
+      udp: true,
+    }
+  - {
+      name: THA🇹🇭・Bangkok,
+      server: 45.40.54.27,
+      port: 1194,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: TCasPq78hUK9jp8WHEr6SD4v,
+      udp: true,
+    }
+  - {
+      name: TUR🇹🇷・Istanbul,
+      server: 45.136.155.89,
+      port: 1194,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: TCasPq78hUK9jp8WHEr6SD4v,
+      udp: true,
+    }
+  - {
+      name: UKR🇺🇦・Kyiv,
+      server: 156.146.50.115,
+      port: 1194,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: TCasPq78hUK9jp8WHEr6SD4v,
+      udp: true,
+    }
+  - {
+      name: UAE🇦🇪・Dubai,
+      server: 176.125.231.27,
+      port: 1194,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: TCasPq78hUK9jp8WHEr6SD4v,
+      udp: true,
+    }
+  - {
+      name: GBR🇬🇧・Glasgow,
+      server: 185.108.105.79,
+      port: 1194,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: TCasPq78hUK9jp8WHEr6SD4v,
+      udp: true,
+    }
+  - {
+      name: GBR🇬🇧・London,
+      server: 195.206.165.239,
+      port: 1194,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: TCasPq78hUK9jp8WHEr6SD4v,
+      udp: true,
+    }
+  - {
+      name: GBR🇬🇧・Manchester,
+      server: 217.138.196.51,
+      port: 1194,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: TCasPq78hUK9jp8WHEr6SD4v,
+      udp: true,
+    }
+  - {
+      name: USA🇺🇸・Miami,
+      server: 87.101.93.173,
+      port: 1194,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: TCasPq78hUK9jp8WHEr6SD4v,
+      udp: true,
+    }
+  - {
+      name: USA🇺🇸・Ashburn,
+      server: 37.19.206.36,
+      port: 1194,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: TCasPq78hUK9jp8WHEr6SD4v,
+      udp: true,
+    }
+  - {
+      name: USA🇺🇸・New York,
+      server: 38.132.106.61,
+      port: 1194,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: TCasPq78hUK9jp8WHEr6SD4v,
+      udp: true,
+    }
+  - {
+      name: USA🇺🇸・Tampa,
+      server: 209.216.92.220,
+      port: 1194,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: TCasPq78hUK9jp8WHEr6SD4v,
+      udp: true,
+    }
+  - {
+      name: USA🇺🇸・Buffalo,
+      server: 107.174.20.130,
+      port: 1194,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: TCasPq78hUK9jp8WHEr6SD4v,
+      udp: true,
+    }
+  - {
+      name: USA🇺🇸・Boston,
+      server: 173.237.207.44,
+      port: 1194,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: TCasPq78hUK9jp8WHEr6SD4v,
+      udp: true,
+    }
+  - {
+      name: USA🇺🇸・Latham,
+      server: 45.43.19.68,
+      port: 1194,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: TCasPq78hUK9jp8WHEr6SD4v,
+      udp: true,
+    }
+  - {
+      name: USA🇺🇸・Orlando,
+      server: 66.115.182.109,
+      port: 1194,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: TCasPq78hUK9jp8WHEr6SD4v,
+      udp: true,
+    }
+  - {
+      name: USA🇺🇸・Manassas,
+      server: us-mnz.prod.surfshark.com,
+      port: 1194,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: TCasPq78hUK9jp8WHEr6SD4v,
+      udp: true,
+    }
+  - {
+      name: USA🇺🇸・Atlanta,
+      server: 195.181.171.249,
+      port: 1194,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: TCasPq78hUK9jp8WHEr6SD4v,
+      udp: true,
+    }
+  - {
+      name: USA🇺🇸・Detroit,
+      server: 193.19.206.102,
+      port: 1194,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: TCasPq78hUK9jp8WHEr6SD4v,
+      udp: true,
+    }
+  - {
+      name: USA🇺🇸・Houston,
+      server: 107.179.20.179,
+      port: 1194,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: TCasPq78hUK9jp8WHEr6SD4v,
+      udp: true,
+    }
+  - {
+      name: USA🇺🇸・St. Louis,
+      server: 148.72.174.53,
+      port: 1194,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: TCasPq78hUK9jp8WHEr6SD4v,
+      udp: true,
+    }
+  - {
+      name: USA🇺🇸・Salt Lake City,
+      server: 104.200.131.7,
+      port: 1194,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: TCasPq78hUK9jp8WHEr6SD4v,
+      udp: true,
+    }
+  - {
+      name: USA🇺🇸・Charlotte,
+      server: 154.16.171.215,
+      port: 1194,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: TCasPq78hUK9jp8WHEr6SD4v,
+      udp: true,
+    }
+  - {
+      name: USA🇺🇸・Chicago,
+      server: 138.199.42.141,
+      port: 1194,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: TCasPq78hUK9jp8WHEr6SD4v,
+      udp: true,
+    }
+  - {
+      name: USA🇺🇸・Phoenix,
+      server: 45.86.211.25,
+      port: 1194,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: TCasPq78hUK9jp8WHEr6SD4v,
+      udp: true,
+    }
+  - {
+      name: USA🇺🇸・Kansas City,
+      server: 38.146.5.221,
+      port: 1194,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: TCasPq78hUK9jp8WHEr6SD4v,
+      udp: true,
+    }
+  - {
+      name: USA🇺🇸・Dallas,
+      server: 45.150.173.167,
+      port: 1194,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: TCasPq78hUK9jp8WHEr6SD4v,
+      udp: true,
+    }
+  - {
+      name: USA🇺🇸・Denver,
+      server: 212.102.44.81,
+      port: 1194,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: TCasPq78hUK9jp8WHEr6SD4v,
+      udp: true,
+    }
+  - {
+      name: USA🇺🇸・Seattle,
+      server: 212.102.46.71,
+      port: 1194,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: TCasPq78hUK9jp8WHEr6SD4v,
+      udp: true,
+    }
+  - {
+      name: USA🇺🇸・San Francisco,
+      server: 93.115.200.56,
+      port: 1194,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: TCasPq78hUK9jp8WHEr6SD4v,
+      udp: true,
+    }
+  - {
+      name: USA🇺🇸・Las Vegas,
+      server: 185.242.5.155,
+      port: 1194,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: TCasPq78hUK9jp8WHEr6SD4v,
+      udp: true,
+    }
+  - {
+      name: USA🇺🇸・Los Angeles,
+      server: 89.187.187.73,
+      port: 1194,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: TCasPq78hUK9jp8WHEr6SD4v,
+      udp: true,
+    }
+  - {
+      name: USA🇺🇸・Bend,
+      server: 45.43.14.83,
+      port: 1194,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: TCasPq78hUK9jp8WHEr6SD4v,
+      udp: true,
+    }
+  - {
+      name: VEN🇻🇪・Caracas,
+      server: 45.149.3.12,
+      port: 1194,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: TCasPq78hUK9jp8WHEr6SD4v,
+      udp: true,
+    }
+proxy-groups:
+  - name: 🛠 MENU
+    type: select
+    proxies:
+      -✈️ AUTOMATIC
+      - 🚀 MANUAL
+  - name: 🚀 MANUAL
+    type: select
+    proxies:
+      - ALB🇦🇱・Tirana
+      - DZA🇩🇿・Algiers
+      - ARG🇦🇷・Buenos Aires
+      - AUS🇦🇺・Brisbane
+      - AUS🇦🇺・Adelaide
+      - AUS🇦🇺・Sydney
+      - AUS🇦🇺・Melbourne
+      - AUS🇦🇺・Perth
+      - AUT🇦🇹・Vienna
+      - AZE🇦🇿・Baku
+      - BEL🇧🇪・Brussels
+      - BEL🇧🇪・Antwerp
+      - BIH🇧🇦・Sarajevo
+      - BRA🇧🇷・Sao Paulo
+      - BUL🇧🇬・Sofia
+      - CAN🇨🇦・Vancouver
+      - CAN🇨🇦・Toronto
+      - CAN🇨🇦・Montreal
+      - CHL🇨🇱・Santiago
+      - COL🇨🇴・Bogota
+      - CRI🇨🇷・San Jose
+      - HRV🇭🇷・Zagreb
+      - CYP🇨🇾・Nicosia
+      - CZE🇨🇿・Prague
+      - DEN🇩🇰・Copenhagen
+      - EST🇪🇪・Tallinn
+      - FIN🇫🇮・Helsinki
+      - FRA🇫🇷・Paris
+      - FRA🇫🇷・Bordeaux
+      - FRA🇫🇷・Marseille
+      - GEO🇬🇪・Tbilisi
+      - GER🇩🇪・Berlin
+      - GER🇩🇪・Frankfurt am Main
+      - GRC🇬🇷・Athens
+      - HKG🇭🇰・HongKong
+      - HUN🇭🇺・Budapest
+      - ISL🇮🇸・Reykjavik
+      - IND🇮🇳・Mumbai
+      - IND🇮🇳・Chennai
+      - IND🇮🇳・Indore
+      - IDN🇮🇩・Jakarta
+      - IRL🇮🇪・Dublin
+      - ISR🇮🇱・Tel Aviv
+      - ITA🇮🇹・Milan
+      - ITA🇮🇹・Rome
+      - JPN🇯🇵・Tokyo
+      - KAZ🇰🇿・Oral
+      - LVA🇱🇻・Riga
+      - LUX🇱🇺・Luxembourg
+      - MYS🇲🇾・Kuala Lumpur
+      - MLT🇲🇹・Valletta
+      - MEX🇲🇽・Mexico City
+      - MDA🇲🇩・Chisinau
+      - NLD🇳🇱・Amsterdam
+      - NZL🇳🇿・Auckland
+      - NGA🇳🇬・Lagos
+      - MKD🇲🇰・Skopje
+      - NOR🇳🇴・Oslo
+      - PAN🇵🇦・Panama
+      - PER🇵🇪・Lima
+      - PHL🇵🇭・Manila
+      - POL🇵🇱・Gdansk
+      - POL🇵🇱・Warsaw
+      - PRT🇵🇹・Lisbon
+      - PRT🇵🇹・Porto
+      - ROU🇷🇴・Bucharest
+      - RUS🇷🇺・Moscow
+      - SRB🇷🇸・Belgrade
+      - SGP🇸🇬・Singapore
+      - SVK🇸🇰・Bratislava
+      - SVN🇸🇮・Ljubljana
+      - ZAF🇿🇦・Johannesburg
+      - KOR🇰🇷・Seoul
+      - ESP🇪🇸・Barcelona
+      - ESP🇪🇸・Madrid
+      - ESP🇪🇸・Valencia
+      - SWE🇸🇪・Stockholm
+      - CHE🇨🇭・Zurich
+      - TWN🇹🇼・Taichung City
+      - THA🇹🇭・Bangkok
+      - TUR🇹🇷・Istanbul
+      - UKR🇺🇦・Kyiv
+      - UAE🇦🇪・Dubai
+      - GBR🇬🇧・Glasgow
+      - GBR🇬🇧・London
+      - GBR🇬🇧・Manchester
+      - USA🇺🇸・Miami
+      - USA🇺🇸・Ashburn
+      - USA🇺🇸・New York
+      - USA🇺🇸・Tampa
+      - USA🇺🇸・Buffalo
+      - USA🇺🇸・Boston
+      - USA🇺🇸・Latham
+      - USA🇺🇸・Orlando
+      - USA🇺🇸・Manassas
+      - USA🇺🇸・Atlanta
+      - USA🇺🇸・Detroit
+      - USA🇺🇸・Houston
+      - USA🇺🇸・St. Louis
+      - USA🇺🇸・Salt Lake City
+      - USA🇺🇸・Charlotte
+      - USA🇺🇸・Chicago
+      - USA🇺🇸・Phoenix
+      - USA🇺🇸・Kansas City
+      - USA🇺🇸・Dallas
+      - USA🇺🇸・Denver
+      - USA🇺🇸・Seattle
+      - USA🇺🇸・San Francisco
+      - USA🇺🇸・Las Vegas
+      - USA🇺🇸・Los Angeles
+      - USA🇺🇸・Bend
+      - VEN🇻🇪・Caracas
+  - name: ✈️ AUTOMATIC
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    proxies:
+      - ALB🇦🇱・Tirana
+      - DZA🇩🇿・Algiers
+      - ARG🇦🇷・Buenos Aires
+      - AUS🇦🇺・Brisbane
+      - AUS🇦🇺・Adelaide
+      - AUS🇦🇺・Sydney
+      - AUS🇦🇺・Melbourne
+      - AUS🇦🇺・Perth
+      - AUT🇦🇹・Vienna
+      - AZE🇦🇿・Baku
+      - BEL🇧🇪・Brussels
+      - BEL🇧🇪・Antwerp
+      - BIH🇧🇦・Sarajevo
+      - BRA🇧🇷・Sao Paulo
+      - BUL🇧🇬・Sofia
+      - CAN🇨🇦・Vancouver
+      - CAN🇨🇦・Toronto
+      - CAN🇨🇦・Montreal
+      - CHL🇨🇱・Santiago
+      - COL🇨🇴・Bogota
+      - CRI🇨🇷・San Jose
+      - HRV🇭🇷・Zagreb
+      - CYP🇨🇾・Nicosia
+      - CZE🇨🇿・Prague
+      - DEN🇩🇰・Copenhagen
+      - EST🇪🇪・Tallinn
+      - FIN🇫🇮・Helsinki
+      - FRA🇫🇷・Paris
+      - FRA🇫🇷・Bordeaux
+      - FRA🇫🇷・Marseille
+      - GEO🇬🇪・Tbilisi
+      - GER🇩🇪・Berlin
+      - GER🇩🇪・Frankfurt am Main
+      - GRC🇬🇷・Athens
+      - HKG🇭🇰・HongKong
+      - HUN🇭🇺・Budapest
+      - ISL🇮🇸・Reykjavik
+      - IND🇮🇳・Mumbai
+      - IND🇮🇳・Chennai
+      - IND🇮🇳・Indore
+      - IDN🇮🇩・Jakarta
+      - IRL🇮🇪・Dublin
+      - ISR🇮🇱・Tel Aviv
+      - ITA🇮🇹・Milan
+      - ITA🇮🇹・Rome
+      - JPN🇯🇵・Tokyo
+      - KAZ🇰🇿・Oral
+      - LVA🇱🇻・Riga
+      - LUX🇱🇺・Luxembourg
+      - MYS🇲🇾・Kuala Lumpur
+      - MLT🇲🇹・Valletta
+      - MEX🇲🇽・Mexico City
+      - MDA🇲🇩・Chisinau
+      - NLD🇳🇱・Amsterdam
+      - NZL🇳🇿・Auckland
+      - NGA🇳🇬・Lagos
+      - MKD🇲🇰・Skopje
+      - NOR🇳🇴・Oslo
+      - PAN🇵🇦・Panama
+      - PER🇵🇪・Lima
+      - PHL🇵🇭・Manila
+      - POL🇵🇱・Gdansk
+      - POL🇵🇱・Warsaw
+      - PRT🇵🇹・Lisbon
+      - PRT🇵🇹・Porto
+      - ROU🇷🇴・Bucharest
+      - RUS🇷🇺・Moscow
+      - SRB🇷🇸・Belgrade
+      - SGP🇸🇬・Singapore
+      - SVK🇸🇰・Bratislava
+      - SVN🇸🇮・Ljubljana
+      - ZAF🇿🇦・Johannesburg
+      - KOR🇰🇷・Seoul
+      - ESP🇪🇸・Barcelona
+      - ESP🇪🇸・Madrid
+      - ESP🇪🇸・Valencia
+      - SWE🇸🇪・Stockholm
+      - CHE🇨🇭・Zurich
+      - TWN🇹🇼・Taichung City
+      - THA🇹🇭・Bangkok
+      - TUR🇹🇷・Istanbul
+      - UKR🇺🇦・Kyiv
+      - UAE🇦🇪・Dubai
+      - GBR🇬🇧・Glasgow
+      - GBR🇬🇧・London
+      - GBR🇬🇧・Manchester
+      - USA🇺🇸・Miami
+      - USA🇺🇸・Ashburn
+      - USA🇺🇸・New York
+      - USA🇺🇸・Tampa
+      - USA🇺🇸・Buffalo
+      - USA🇺🇸・Boston
+      - USA🇺🇸・Latham
+      - USA🇺🇸・Orlando
+      - USA🇺🇸・Manassas
+      - USA🇺🇸・Atlanta
+      - USA🇺🇸・Detroit
+      - USA🇺🇸・Houston
+      - USA🇺🇸・St. Louis
+      - USA🇺🇸・Salt Lake City
+      - USA🇺🇸・Charlotte
+      - USA🇺🇸・Chicago
+      - USA🇺🇸・Phoenix
+      - USA🇺🇸・Kansas City
+      - USA🇺🇸・Dallas
+      - USA🇺🇸・Denver
+      - USA🇺🇸・Seattle
+      - USA🇺🇸・San Francisco
+      - USA🇺🇸・Las Vegas
+      - USA🇺🇸・Los Angeles
+      - USA🇺🇸・Bend
+      - VEN🇻🇪・Caracas
+rules:
+  - DOMAIN-SUFFIX,local,DIRECT
+  - IP-CIDR,192.168.0.0/16,DIRECT,no-resolve
+  - IP-CIDR,10.0.0.0/8,DIRECT,no-resolve
+  - IP-CIDR,172.16.0.0/12,DIRECT,no-resolve
+  - IP-CIDR,127.0.0.0/8,DIRECT,no-resolve
+  - IP-CIDR,100.64.0.0/10,DIRECT,no-resolve
+  - IP-CIDR6,::1/128,DIRECT,no-resolve
+  - IP-CIDR6,fc00::/7,DIRECT,no-resolve
+  - IP-CIDR6,fe80::/10,DIRECT,no-resolve
+  - IP-CIDR6,fd00::/8,DIRECT,no-resolve
+  - GEOIP,IR,DIRECT,
+  - MATCH,🛠 MENU
