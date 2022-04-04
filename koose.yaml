@@ -1,0 +1,142 @@
+1212
+1213
+1214
+1215
+1216
+1217
+1218
+1219
+1220
+1221
+1222
+1223
+1224
+1225
+1226
+1227
+1228
+1229
+1230
+1231
+1232
+1233
+1234
+1235
+1236
+1237
+1238
+1239
+1240
+1241
+1242
+1243
+1244
+1245
+1246
+1247
+1248
+1249
+1250
+1251
+1252
+1253
+1254
+1255
+1256
+1257
+1258
+1259
+1260
+1261
+1262
+1263
+1264
+1265
+1266
+1267
+1268
+1269
+1270
+1271
+1272
+1273
+1274
+1275
+1276
+1277
+1278
+1279
+1280
+1281
+1282
+  enable: true
+      - NGA🇳🇬・Lagos
+      - MKD🇲🇰・Skopje
+      - NOR🇳🇴・Oslo
+      - PAN🇵🇦・Panama
+      - PER🇵🇪・Lima
+      - PHL🇵🇭・Manila
+      - POL🇵🇱・Gdansk
+      - POL🇵🇱・Warsaw
+      - PRT🇵🇹・Lisbon
+      - PRT🇵🇹・Porto
+      - ROU🇷🇴・Bucharest
+      - RUS🇷🇺・Moscow
+      - SRB🇷🇸・Belgrade
+      - SGP🇸🇬・Singapore
+      - SVK🇸🇰・Bratislava
+      - SVN🇸🇮・Ljubljana
+      - ZAF🇿🇦・Johannesburg
+      - KOR🇰🇷・Seoul
+      - ESP🇪🇸・Barcelona
+      - ESP🇪🇸・Madrid
+      - ESP🇪🇸・Valencia
+      - SWE🇸🇪・Stockholm
+      - CHE🇨🇭・Zurich
+      - TWN🇹🇼・Taichung City
+      - THA🇹🇭・Bangkok
+      - TUR🇹🇷・Istanbul
+      - UKR🇺🇦・Kyiv
+      - UAE🇦🇪・Dubai
+      - GBR🇬🇧・Glasgow
+      - GBR🇬🇧・London
+      - GBR🇬🇧・Manchester
+      - USA🇺🇸・Miami
+      - USA🇺🇸・Ashburn
+      - USA🇺🇸・New York
+      - USA🇺🇸・Tampa
+      - USA🇺🇸・Buffalo
+      - USA🇺🇸・Boston
+      - USA🇺🇸・Latham
+      - USA🇺🇸・Orlando
+      - USA🇺🇸・Manassas
+      - USA🇺🇸・Atlanta
+      - USA🇺🇸・Detroit
+      - USA🇺🇸・Houston
+      - USA🇺🇸・St. Louis
+      - USA🇺🇸・Salt Lake City
+      - USA🇺🇸・Charlotte
+      - USA🇺🇸・Chicago
+      - USA🇺🇸・Phoenix
+      - USA🇺🇸・Kansas City
+      - USA🇺🇸・Dallas
+      - USA🇺🇸・Denver
+      - USA🇺🇸・Seattle
+      - USA🇺🇸・San Francisco
+      - USA🇺🇸・Las Vegas
+      - USA🇺🇸・Los Angeles
+      - USA🇺🇸・Bend
+      - VEN🇻🇪・Caracas
+rules:
+  - DOMAIN-SUFFIX,local,DIRECT
+  - IP-CIDR,192.168.0.0/16,DIRECT,no-resolve
+  - IP-CIDR,10.0.0.0/8,DIRECT,no-resolve
+  - IP-CIDR,172.16.0.0/12,DIRECT,no-resolve
+  - IP-CIDR,127.0.0.0/8,DIRECT,no-resolve
+  - IP-CIDR,100.64.0.0/10,DIRECT,no-resolve
+  - IP-CIDR6,::1/128,DIRECT,no-resolve
+  - IP-CIDR6,fc00::/7,DIRECT,no-resolve
+  - IP-CIDR6,fe80::/10,DIRECT,no-resolve
+  - IP-CIDR6,fd00::/8,DIRECT,no-resolve
+  - GEOIP,IR,DIRECT,
+  - MATCH,🛠 MENU
